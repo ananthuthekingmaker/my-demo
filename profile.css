@@ -1,0 +1,441 @@
+body {
+    background:  #3aafa9;;
+    margin: 0px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: red;
+}
+.form-control:focus {
+    box-shadow: none;
+   
+}
+
+
+
+
+.profile-card{
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+    
+}
+
+.card-header{
+  background: #f4f4f4;
+  padding: 20px 20px;
+}
+
+.pic{
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(130deg, #74b9ff, #e66767);
+  margin: auto;
+  border-radius: 50%;
+
+  animation: animated-gradient 2s linear infinite;
+}
+.pic-post{
+    width: 100%;
+    
+}
+.pic-post img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes animated-gradient{
+  25%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: right bottom;
+  }
+  75%{
+    background-position: right top;
+  }
+  100%{
+    background-position: left top;
+  }
+}
+
+.pic img{
+  display: block;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+    float: left;
+}
+
+.name{
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.desc{
+  font-size: 18px;
+  color: #e66767;
+}
+
+.sm{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sm a{
+  color: #f2f2f2;
+  width: 56px;
+  font-size: 22px;
+  transition: .3s linear;
+}
+
+.sm a:hover{
+  color: #e66767;
+}
+
+.contact-btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: #e66767;
+  border: 2px solid #e66767;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: .3s linear;
+}
+
+.contact-btn:hover{
+  background: #e66767;
+  color: #f2f2f2;
+}
+.card-profile-info{
+    background: #f4f4f4;
+  padding: 10px 10px;
+    margin-bottom: 3px;
+    margin-top: 30px;
+}
+
+.card-footer{
+  background: #f4f4f4;
+  padding: 60px 10px;
+}
+
+.numbers{
+  display: flex;
+  align-items: center;
+}
+
+.item{
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #e66767;
+}
+
+.item span{
+  display: block;
+  color: #2c3a47;
+  font-size: 30px;
+}
+.card-profile-info span{
+    display: block;
+  color: #2c3a47;
+  font-size: 20px;
+}
+
+.border{
+  width: 1px;
+  height: 30px;
+  background: #bbb;
+}
+
+
+
+.navbar-nav{
+    font-size: 1rem;
+    color: #000;
+     position: fixed;
+  top: 0;
+  width: 100%;
+    
+}
+.navbar-nav:hover{
+    color: #000;
+}
+.nav-item{
+    margin-right: 40px;
+    margin-left: 10px;
+    color: #000;
+    
+    
+    
+}
+.nav-item:hover{
+    color: #000;
+}
+.container-nav{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-post{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    
+}
+.container-post h1{
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+
+input {
+	border-radius: 5px;
+	width: 65%;
+	padding: 5px;
+	border: none;
+    margin-left: 20px;
+ 
+}
+
+.btn2{
+     height: 40px;
+    width: 20%;
+    outline: none;
+    border: none;
+    background: #3aafa9;
+    color: #fff;
+    border-radius: 10px;
+  
+    font-weight: 700;
+   margin: 20px;
+}
+.icon{
+    height: 40px;
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+* {
+		font-family: "Roboto", Arial, sans-serif;
+}
+
+h1 {
+		font-weight: 100;
+		color: #777;
+}
+
+.main-wrapper {
+		border-radius: 4px;
+		background-color: white;
+		padding: 20px;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		position: relative;
+}
+
+i.material-icons {
+		font-size: 1.3rem;
+		color: white;
+        width: 50px;
+		height: 50px;
+		position: relative;
+		border-radius: 50%;
+		padding: 2px;
+    
+		margin: 3px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+i.material-icons:after {
+		content: "";
+		width: 50px;
+		height: 50px;
+		border: solid 2px;
+		transform: scale(0.8);
+		position: absolute;
+		top:1px;
+		left: -1px;
+		border-radius: 50%;
+		transition: all 0.3s ease;
+}
+
+i.material-icons:hover:after {
+		transform: scale(1);
+		box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+i.material-icons:nth-of-type(4) {
+		background-color: #88b999;
+}
+
+i.material-icons:nth-of-type(4):hover {
+		color: #88b999;
+}
+
+i.material-icons:nth-of-type(4):after {
+		border-color: #88b999;
+}
+
+i.material-icons:nth-of-type(5) {
+		background-color: #88b2b9;
+}
+
+i.material-icons:nth-of-type(5):hover {
+		color: #88b2b9;
+}
+
+i.material-icons:nth-of-type(5):after {
+		border-color: #88b2b9;
+}
+
+i.material-icons:nth-of-type(6) {
+		background-color: #8897b9;
+}
+
+i.material-icons:nth-of-type(6):hover {
+		color: #8897b9;
+}
+
+i.material-icons:nth-of-type(6):after {
+		border-color: #8897b9;
+}
+
+i.material-icons:nth-of-type(7) {
+		background-color: #af88b9;
+}
+
+i.material-icons:nth-of-type(7):hover {
+		color: #af88b9;
+}
+
+i.material-icons:nth-of-type(7):after {
+		border-color: #af88b9;
+}
+
+i.material-icons:nth-of-type(8) {
+		background-color: #d59acb;
+}
+
+i.material-icons:nth-of-type(8):hover {
+		color: #d59acb;
+}
+
+i.material-icons:nth-of-type(8):after {
+		border-color: #d59acb;
+}
+
+i.material-icons:nth-of-type(1) {
+		background-color: #cd8484;
+}
+
+i.material-icons:nth-of-type(1):hover {
+		color: #cd8484;
+}
+
+i.material-icons:nth-of-type(1):after {
+		border-color: #cd8484;
+}
+
+i.material-icons:nth-of-type(2) {
+		background-color: #ec9f83;
+}
+
+i.material-icons:nth-of-type(2):hover {
+		color: #ec9f83;
+}
+
+i.material-icons:nth-of-type(2):after {
+		border-color: #ec9f83;
+}
+
+i.material-icons:nth-of-type(3) {
+		background-color: #cdb274;
+}
+
+i.material-icons:nth-of-type(3):hover {
+		color: #cdb274;
+}
+
+i.material-icons:nth-of-type(3):after {
+		border-color: #cdb274;
+}
+
+i.material-icons:hover {
+		background-color: transparent;
+		transform: rotate(90deg);
+		cursor: pointer;
+		box-shadow: none;
+    
+}
+
+p {
+		color: #999;
+		font-weight: 300;
+		margin-top: 20px;
+}
+
+@media (min-width:601px) {
+	i.material-icons {
+		padding:10px;
+		margin:5px;
+		font-size:1.3rem;
+	}
+}
+
+@media (min-width:993px) {
+	i.material-icons {
+		padding:15px;
+		margin:10px;
+		font-size:1.3rem;
+	}
+	i.material-icons:after {
+		border-width:2px;
+		top:1px;
+		left:1px;
+	}
+}
+
+
+.icon-class{
+    margin-left: 20px;
+   
+}
+
+
+
